@@ -9,7 +9,7 @@ const Footer = () => (
           <img 
             src={logo}
             alt="hoobank"
-            className="w-[266px h-[72px] object-contain" 
+            className="w-[124px] h-[32px]object-contain" 
             />
             <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>A new way to make the payments easy, reliable and secure.</p>
         </div>
