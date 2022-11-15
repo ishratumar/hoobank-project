@@ -18,11 +18,12 @@ const FeatureCard = ({ icon, title, content, index }) => (
       </div>
     </div>
 );
-const Business = () => (
+const Business = () => {
+  return(
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>You do the business, <br className="sm:block hidden" /> we'll handle the money.</h2>
-        {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum enim optio nesciunt illo eius quod consequatur aliquid deserunt cupiditate repellendus quaerat molestias, vitae debitis perspiciatis iusto itaque praesentium dolores?</p> */}
+        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}> Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
         <Button styles={`mt-10`} />
       </div>
       
@@ -31,7 +32,9 @@ const Business = () => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
       </div>
+      
     </section>
-  );
+    )
+}
 
 export default Business;
