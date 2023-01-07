@@ -1,4 +1,4 @@
 # landing-page
 Landing page built with React & TailwindCSS.
 
-[Live Demo](https://landing-page-hoobank.netlify.app/)
+[Live Demo](https://hoobank-project-two.vercel.app/)
