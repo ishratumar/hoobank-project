@@ -8,6 +8,7 @@ const CTA = () => (
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur adipisci eum.</p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+       <Button /> 
        {/* <Button />  */}
       </div>
     </section>
